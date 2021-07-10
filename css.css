@@ -30,3 +30,24 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+.img{
+    opacity: 0;
+    width: 100%;
+}
+
+.imgOpen{
+    animation: img 6s linear;
+}
+
+@keyframes img {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
