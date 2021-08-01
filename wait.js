@@ -1,4 +1,5 @@
 const waitBlock = document.querySelector('.wait');
+console.log(waitBlock)
 setTimeout(() => {
     wait()
 }, 5000);
