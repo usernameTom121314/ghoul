@@ -2,7 +2,7 @@ body{
     font-family: "Verdana";
     background: #000000;
     color: #fff;
-    overflow:hidden;
+    overflow-x:hidden;
 }
 
 .btn{
