@@ -5,5 +5,6 @@ setTimeout(() => {
 
 let wait = ()=>{
    waitBlock.style.display = 'none'
+    btn.style.display = 'block'
 }
 
